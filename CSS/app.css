@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#F5F5F5;
+}
+
+.container {
+    width: 1216px;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    /* border: 1px solid black; */
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+}
+
+.section-head_title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section-head_icon {
+    width: 22px;
+    height: 22px;
+    color: #039BE5;
+}
+
+.section-head_link {
+    text-decoration: none;
+    color: #039BE5;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.product {
+    width: 100%;
+    /* border: 1px solid green; */
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8)
+   
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-name {
+    color: #212121;
+    height: 72px;
+
+
+}
+
+.product-link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: normal;
+    word-break: break-all;
+
+}
+
+.product-offer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+    
+
+}
+
+
+.product-offer_persent {
+    background-color: #80DEEA;
+    color: #00BCD4;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 14px;
+
+}
+
+.product-offer_fee {
+    color: #9E9E9E;
+    font-size: 14px;
+    text-decoration: line-through;
+
+}
+
+
+.product-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.product-price-currency {
+    color: #212121;
+
+}
+
+.product-price-fee {
+    font-weight: bold;
+
+}
+
+.product-ratting {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.product-ratting_number {
+    color: #212121;
+}
+
+.product-ratting_icon {
+    width: 22px;
+    height: 22px;
+    color: #FFEB3B;
+}
